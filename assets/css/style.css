@@ -162,6 +162,12 @@ header {
     letter-spacing: 2px;
 }
 
+h4 {
+    font-family: "Architects Daughter", sans-serif;
+    text-shadow: 0 .3rem .3rem rgba(0, 0, 0);
+    font-weight: 500;
+}
+
 /*--------------------------------------------Hover.css*/
 
 a.hvr-bounce-to-bottom:before {
@@ -240,4 +246,15 @@ i:hover {
     justify-content: center;
     padding-top: 1rem;
     padding-bottom: .5rem;
+}
+
+/* ----------------------------------------Three Reasons */
+
+.three-reasons-icon {
+    font-size: 26px;
+    color: #3498db;
+}
+
+.three-reasons-heading {
+    margin-bottom: 15px;
 }
