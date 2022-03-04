@@ -186,7 +186,7 @@ footer {
 
 .cv-pdf i {
     font-size: 18px;
-    color: #fafafa;
+    color: rgb(150, 2, 2);
     text-align: center;
     padding-left: 5px;
     transition: all 0.3s ease-in-out;
@@ -196,7 +196,7 @@ footer {
 }
 
 .cv-pdf i:hover {
-    color: rgb(150, 2, 2);
+    color: rgb(255, 255, 255);
 }
 
 .social-links {
@@ -230,6 +230,7 @@ footer {
 i {
     font-size: 2rem;
     padding: 5px;
+    padding-bottom: 30px;
 }
 
 i:hover {
