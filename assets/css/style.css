@@ -266,4 +266,8 @@ i:hover {
     .name {
         font-size: 40px;
     }
+
+    i {
+        font-size: 1.5rem;
+    }
 }
