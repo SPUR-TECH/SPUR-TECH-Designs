@@ -1,7 +1,4 @@
-body {
-    font-family: 'Architects Daughter', sans-serif:100, 200, 300, 400, 500, 600, 700|Exo:100, 200, 300, 400, 500, 600, 700');;
-
-}
+@import url('https://fonts.googleapis.com/css?family=Architects Daughter:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
 /*--------------------------------------------Colors*/
 
@@ -261,9 +258,12 @@ i:hover {
 }
 
 
-@media all and (max-width: 320px) {
+@media all and (max-width: 370px) {
     .copyright {
-        font-size: 12px;
+        font-size: 10px;
     }
 
+    .name {
+        font-size: 40px;
+    }
 }
