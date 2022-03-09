@@ -217,6 +217,39 @@ a.hvr-bounce-to-bottom:before {
     height: 120px;
 }
 
+/*-----------------------------------------Projects*/
+
+.projects-container {
+    background-image: linear-gradient(#9b59b6, black);
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.projects-container .projects {
+    height: 15rem;
+    width: 32rem;
+    margin: 2rem;
+    box-shadow: 0 1.3rem 1.3rem rgba(0, 0, 0);
+    overflow: hidden;
+    border-radius: 1rem;
+}
+
+.projects-container .projects image {
+    width: 100%;
+    height: 100%;
+    object-fit: fit;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.projects-container .projects:hover {
+    transform: scale(1.1);
+}
+
 /* ----------------------------------------Footer */
 
 footer {
