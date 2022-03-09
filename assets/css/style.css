@@ -217,6 +217,10 @@ a.hvr-bounce-to-bottom:before {
     height: 120px;
 }
 
+.projects-container .projects:hover {
+    transform: scale(1.1);
+}
+
 /*-----------------------------------------Projects*/
 
 .projects-container {
@@ -244,10 +248,6 @@ a.hvr-bounce-to-bottom:before {
     outline: none;
     border: none;
     cursor: pointer;
-}
-
-.projects-container .projects:hover {
-    transform: scale(1.1);
 }
 
 /* ----------------------------------------Footer */
