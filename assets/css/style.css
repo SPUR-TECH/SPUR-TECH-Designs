@@ -71,7 +71,7 @@ b {
 }
 
 .ui-menu-color-download {
-    background-image: linear-gradient(#525252, black);
+    background-image: linear-gradient(#691212, black);
 }
 
 /* ----------------------------------------Special paddings/margins/text */
@@ -224,7 +224,7 @@ a.hvr-bounce-to-bottom:before {
 /*-----------------------------------------Projects*/
 
 .projects-container {
-    background-image: linear-gradient(#9b59b6, black);
+    background-image: linear-gradient(#691212, black);
     padding-top: 4rem;
     padding-bottom: 4rem;
     display: flex;
@@ -443,12 +443,14 @@ i:hover {
 
 /* ----------------------------------------Contact Form */
 
-.contact-heading {
+.contact-heading,
+h5 {
     font-family: "Architects Daughter", sans-serif;
     text-shadow: 0 .3rem .3rem rgba(0, 0, 0);
     font-weight: 300;
     margin-top: 25px;
     margin-bottom: 15px;
+    color: rgb(224, 224, 224);
 }
 
 h4,
