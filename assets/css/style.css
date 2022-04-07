@@ -233,7 +233,7 @@ a.hvr-bounce-to-bottom:before {
 }
 
 .projects-container .projects {
-    height: 15rem;
+    height: 14rem;
     width: 32rem;
     margin: 2rem;
     box-shadow: 0 1.3rem 1.3rem rgba(0, 0, 0);
@@ -496,7 +496,7 @@ button[type="submit"] {
     }
 
     .projects-container .projects {
-        height: 9.2rem;
+        height: 8rem;
     }
 
     img {
