@@ -244,7 +244,7 @@ a.hvr-bounce-to-bottom:before {
 .projects-container .projects image {
     width: 100%;
     height: 100%;
-    object-fit: contain;
+    object-fit: cover;
     outline: none;
     border: none;
     cursor: pointer;
