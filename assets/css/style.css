@@ -505,3 +505,9 @@ button[type="submit"] {
         width: 320px;
     }
 }
+
+@media all and (max-width: 320px) {
+    img {
+        width: 270px;
+    }
+}
