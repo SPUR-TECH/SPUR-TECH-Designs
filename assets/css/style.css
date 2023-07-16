@@ -483,8 +483,18 @@ button[type="submit"] {
     }
 }
 
+@media all and (max-width: 600px) {
+    .projects-container .projects {
+        height: 8rem;
+        width: 20rem;
+    }
 
-@media all and (max-width: 380px) {
+    img {
+        width: 320px;
+    }
+}
+
+@media all and (max-width: 400px) {
     .copyright {
         font-size: 10px;
     }
@@ -496,18 +506,10 @@ button[type="submit"] {
     i {
         font-size: 1.5rem;
     }
-
-    .projects-container .projects {
-        height: 8rem;
-    }
-
-    img {
-        width: 320px;
-    }
 }
 
-@media all and (max-width: 320px) {
+@media all and (max-width: 350px) {
     img {
-        width: 270px;
+        width: 280px;
     }
 }
